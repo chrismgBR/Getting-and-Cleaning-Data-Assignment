@@ -130,6 +130,6 @@ head(df.tidy[,1:7])
 
 # Write tidy data frame (.csv and .txt)
 write.csv(x = df.tidy, file = "tidy_data.csv", row.names = FALSE)      # .csv format
-write.table(x = df.tidy, file = "tidy_data.txt", row.names = FALSE )   # .txt format
+write.table(x = df.tidy, file = "tidy_data.txt", sep = "\t", row.names = FALSE )   # .txt format
 
 
